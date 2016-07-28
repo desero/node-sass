@@ -16,3 +16,5 @@ RUN ln -s /usr/bin/nodejs /usr/bin/node
 
 # Define working directory.
 WORKDIR /workspace
+
+VOLUME /workspace
